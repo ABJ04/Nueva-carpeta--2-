@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 890px;
+}
+
+main {
+  background-color: rgb(230, 225, 225);
+  width: 700px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  margin-left: 60px;
+}
+
+.list input {
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.list button {
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: rgb(41, 119, 41);
+  color: white;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  margin-top: -10px;
+}
+
+.info h4 {
+  font-size: 1.3rem;
+}
+
+.separador {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.addList {
+  margin-top: -20px;
+}
